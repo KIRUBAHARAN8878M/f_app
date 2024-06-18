@@ -3,7 +3,7 @@ import { Modal, Button } from 'react-bootstrap';
 import axios from 'axios';
 import './MovieModal.css'; // Import the CSS file for modal styling
 
-const API_KEY = import.meta.env.REACT_APP_API_KEY;
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
 
 const MovieModal = ({ movie, onHide, theme }) => {
