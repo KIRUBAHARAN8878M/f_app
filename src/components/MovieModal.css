@@ -1,0 +1,14 @@
+.movie-modal.light .modal-content {
+    background-color: #fff;
+    color: #343a40;
+  }
+  
+  .movie-modal.dark .modal-content {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .movie-modal .modal-content {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
