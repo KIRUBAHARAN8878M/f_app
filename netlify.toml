@@ -686,3 +686,10 @@
   to = "https://docs.netlify.com/functions/overview/"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/api/*"
+  to = "http://www.omdbapi.com/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
