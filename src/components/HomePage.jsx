@@ -4,7 +4,7 @@ import axios from 'axios';
 import MovieList from './MovieList';
 import MovieModal from './MovieModal';
 import { useTheme } from '../ThemeContext'; // Import the useTheme hook
-const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
+const API_KEY = import.meta.env.REACT_APP_API_KEY;
 
 const HomePage = () => {
   const { theme } = useTheme(); // Get the current theme
